@@ -1,0 +1,2 @@
+python train_offline.py --env kitchen --wandb --min_z_weight 10.0 --lag 10.0 --actor_lr 0.00003 --entropy "true"
+python train_offline.py --env kitchen --wandb --min_z_weight 0.1 --lag -1 --actor_lr 0.00003 --entropy "false"
